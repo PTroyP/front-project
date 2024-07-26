@@ -430,7 +430,11 @@
         </div>
       </div>
       <div class="copyright-cookies">
-        <p class="copyright">&copy; Front. 2022 Responsive designs. All rights reserved.</p>
+          <p class="copyright">&copy;
+    <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+    | Front Responsive Designs. All rights reserved.</p>
         <p class="cookies">
           When you visit or interact with our sites, services or tools, we or our authorized service providers may use
           cookies for storing information to help provide you with a better, faster and safer experience and for
